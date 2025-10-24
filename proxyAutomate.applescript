@@ -61,10 +61,10 @@ repeat while loop is true
 		else if button returned of dialogResult is btnCancel then
 			if enabledResult is "Yes" then
 				do shell script "networksetup -setsecurewebproxystate Wi-Fi off"
-				set loop to false
 				
 			end if
-			
+			set loop to false
+
 		end if
 		
 	end try
